@@ -1,0 +1,22 @@
+python code is running in the background continously
+
+Triggers:
+* Charger Connection to power source
+* Battery cycle count changed
+
+* Event:
+
+Keep track of 
+When I plugged in the charger (Date and time)
+The percentage it was before I plugged it in
+The percentage it was when I unplugged it.
+The date and time I unplugged the charger
+The condition of the battery
+
+Save it in an Excel File
+Back it up in a database on my Google Cloud Account
+
+
+
+Credit:
+https://apple.stackexchange.com/questions/116429/using-bash-terminal-to-get-number-of-battery-recharge-cycles
