@@ -13,10 +13,22 @@ The percentage it was when I unplugged it.
 The date and time I unplugged the charger
 The condition of the battery
 
-Save it in an Excel File
+Save it in an Excel File (as csv) / SQLite
 Back it up in a database on my Google Cloud Account
 
 
+ADDENDUM
+System sends notification with music when battery is at 29% and another music when at 80%
 
-Credit:
+
+Source:
 https://apple.stackexchange.com/questions/116429/using-bash-terminal-to-get-number-of-battery-recharge-cycles
+
+One of the key metrics for the performance and health of a laptop battery is the battery cycle count. However, it is often difficult to stop the count from increasing and some have argued that regardless of what the count is, the battery ages (Source).
+I was recently rewarded with a Macbook M1 Pro for my good grades at school and so I wanted to study firsthand how to elongate the span of my battery life. I did a little research online, read some blog posts, watched some videos but the more I watched and the read, the more confusing it was for me.
+While some opined that it is good to keep the battery between the levels of 30% and 80%, others opined that 20% and 85% is a good range. Yet, others opined that it doesn't matter as the newer model of adaptors and systems automatically switch between using the power source and using the battery.
+
+In the dark of this confusion, I set to throw light on this subject albeit in a way that is from my own experience. This has given birth to this research which is ongoing.
+
+I have written some modules in python to help me automate this task so I don't need to manually record the data myself. The goal is to monitor the battery count weekly by switching between these varying opinions. This will enable me to keep track of which of these helps my battery health. As such, apart from the battery cycle count, I have also kept track of my battery health percent.
+
